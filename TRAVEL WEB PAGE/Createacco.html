@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('./pic/06_28_2025_X-Design.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            position: relative;
+        }
+
+        fieldset {
+            width: 300px;
+        }
+
+        legend {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: red;
+            padding: 0 10px;
+        }
+
+        label {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: larger;
+            font-weight: 400;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid;
+            border-radius: 5px;
+            box-sizing: border-box;
+            font-size: 1em;
+        }
+
+        button {
+            border: 1px solid;
+            padding: 10px 20px;
+            border-radius: 20px;
+            font-size: 1em;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        button:hover {
+            background-color: blue;
+        }
+    </style>
+    <fieldset>
+        <legend>Create Account</legend>
+        <label for="name">Name</label> <br>
+        <input type="text" id="name" placeholder="Name" required>
+        <br>
+        <label for="cont">Phone_no</label> <br>
+        <input type="number" id="cont" placeholder="Phone_no" required>
+        <br>
+        <label for="email">Email_id</label> <br>
+        <input type="tel" id="email" placeholder="Email" required>
+        <br>
+        <label for="pass">Enter Password</label> <br>
+        <input type="text" id="pass" placeholder="Password" required>
+        <br>
+        <label for="pass1">Conform Password</label> <br>
+        <input type="text" id="pass1" placeholder="Password" required>
+        <br>
+        <button>Create account</button>
+        <br> <br>
+    </fieldset>
+</body>
+
+</html>

@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Explore The World - Home</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-image: url('./pic/traveling-with-off-road-car.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            color: white;
+        }
+
+        nav {
+            height: 60px;
+            background-color: rgba(95, 158, 160, 0.95);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 50px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+        }
+
+        nav .logo img {
+            height: 45px;
+            width: 45px;
+            border-radius: 10px;
+        }
+
+        nav span {
+            font-size: 24px;
+            font-weight: bold;
+            margin-left: 15px;
+            color: white;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            margin: 0 15px;
+            font-weight: 600;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color:red;
+        }
+
+        .banner {
+            text-align: center;
+            padding: 80px 20px 40px;
+            font-size: 48px;
+            font-weight: bold;
+            color:yellow;
+            text-shadow: 2px 2px 5px black;
+        }
+
+        .child {
+            background-color: rgba(255, 255, 255, 0.9);
+            color: #333;
+            padding: 40px;
+            margin: 20px auto;
+            max-width: 1000px;
+            border-radius: 20px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+        }
+
+        .child h2 {
+            text-align: center;
+            color: #023047;
+        }
+
+        .child p {
+            font-size: 16px;
+            line-height: 1.8;
+        }
+
+        .parent {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+
+        .box {
+            width: 250px;
+            height: 200px;
+            overflow: hidden;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s ease;
+        }
+
+        .box img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: 0.5s ease;
+        }
+
+        .box:hover {
+            transform: scale(1.05);
+        }
+
+        .box img:hover {
+            transform: scale(1.1);
+        }
+
+        footer {
+            background-color: rgba(95, 158, 160, 0.95);
+            text-align: center;
+            color: white;
+            padding: 15px;
+            margin-top: 50px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo">
+            <img src="./pic/3d-icon-travel-with-airplane.jpg" alt="Logo">
+        </div>
+        <span>Beyond Trails</span>
+        <div>
+            <a href="./Main.html">Home</a>
+            <a href="./Destination.html">Destination</a>
+            <a href="./Package.html">Package</a>
+            <a href="./Gallery.html">Gallery</a>
+            <a href="./Contact.html">Contact</a>
+            <a href="./Loginup.html">Login</a>
+        </div>
+    </nav>
+
+    <div class="banner">
+         Leh-Ladakh 🌄
+    </div>
+
+ 
+    <div class="child">
+        <h2>About Us</h2>
+        <p>
+            Welcome to <strong>Explore The World</strong>, your trusted partner in unforgettable travel experiences.
+            We are a team of passionate explorers dedicated to helping you discover the most beautiful corners of the
+            planet. 🌍
+        </p>
+        <p>
+            Whether you're craving a serene mountain retreat, a desert adventure, or a cultural deep dive into ancient
+            cities,
+            we've got you covered.
+        </p>
+        <p>
+            Founded in 2015, our mission is to make travel affordable, exciting, and deeply personal.
+            With expertly crafted itineraries, experienced guides, and 24/7 customer support, we ensure your journey is
+            seamless and magical.
+        </p>
+        <p>
+            Join thousands of happy travelers and start your next chapter of adventure with us.
+            Life’s too short to stay in one place—let’s go explore! 🚀
+        </p>
+    </div>
+
+    <div class="parent">
+        <div class="box">
+            <img src="./pic/luxury-hotel-dubai-front-view-illuminated-dusk-generated-by-ai.jpg" alt="Luxury Hotel" />
+        </div>
+        <div class="box">
+            <img src="./pic/luxury-design-private-jet-flying-clouds-ai-generated-image.jpg" alt="Private Jet" />
+        </div>
+        <div class="box">
+            <img src="./pic/9a82730d-5fb8-4fa8-af3c-68d41395d015.jpg" alt="Mountain Road" />
+        </div>
+        <div class="box">
+            <img src="./pic/1950394.jpg" alt="Traveler" />
+        </div>
+    </div>
+
+
+    <footer>
+        &copy; 2025 Explore The World. All rights reserved.
+    </footer>
+</body>
+
+</html>
